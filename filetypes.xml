@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="&lt;?php" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping ext="ph" type="PLAIN_TEXT" />
+      <mapping ext="bkp" type="PLAIN_TEXT" />
+      <mapping ext="meh" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
