@@ -1,0 +1,7 @@
+<templateSet group="Laravel">
+  <template name="crudr" value="&lt;?php&#10;&#10;Route::get('/$url$',           ['as' =&gt; '$url$.index',    'uses' =&gt; '$ctrl$@index']);&#10;Route::get('/$url$/create',    ['as' =&gt; '$url$.create',   'uses' =&gt; '$ctrl$@create']);&#10;Route::post('/$url$',          ['as' =&gt; '$url$.store',    'uses' =&gt; '$ctrl$@store']);&#10;Route::get('/$url$/{id}/edit', ['as' =&gt; '$url$.edit',     'uses' =&gt; '$ctrl$@edit']);&#10;Route::get('/$url$/{id}',      ['as' =&gt; '$url$.update',   'uses' =&gt; '$ctrl$@update']);" description="Laravel CRUD routes" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ctrl" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
