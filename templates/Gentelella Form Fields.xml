@@ -1,0 +1,9 @@
+<templateSet group="Gentelella Form Fields">
+  <template name="ftxt" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label class=&quot;control-label col-md-3 col-sm-3 col-xs-12&quot; for=&quot;$name$&quot;&gt;$name$&lt;span class=&quot;required&quot;&gt;*&lt;/span&gt;&#10;    &lt;/label&gt;&#10;    &lt;div class=&quot;col-md-6 col-sm-6 col-xs-12&quot;&gt;&#10;      &lt;input type=&quot;text&quot; id=&quot;$name$&quot; required=&quot;required&quot; class=&quot;form-control col-md-7 col-xs-12&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="form input text" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
