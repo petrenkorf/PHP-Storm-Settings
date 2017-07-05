@@ -1,9 +1,0 @@
-<templateSet group="PHP">
-  <template name="deco" value="$decorable$ = new $decorator$($decorable$);" description="Decorate some object with another" toReformat="false" toShortenFQNames="true">
-    <variable name="decorable" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="decorator" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP Statement" value="true" />
-    </context>
-  </template>
-</templateSet>
